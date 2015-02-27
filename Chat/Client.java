@@ -72,17 +72,14 @@ public class Client {
         });
     }
 
-    //Pentru casuta cu adresaserverului
     private String getServerAddress() {
         return JOptionPane.showInputDialog(frame, "Enter IP Address of the Server:", "Welcome to Chat", JOptionPane.INFORMATION_MESSAGE);
     }
 
-    //pentru casuta cu numele
     private String getName() {
         return JOptionPane.showInputDialog(frame, "Choose a name:", "Screen name selection", JOptionPane.PLAIN_MESSAGE);
     }
 
-    //Pentru inlocuirea cu noul nickname
     private String changeName() {
         return JOptionPane.showInputDialog(frame, "Enter the new nickname:", "Chnage your nickname", JOptionPane.PLAIN_MESSAGE);
     }
